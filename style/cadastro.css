@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #042940;
+    height: 12vh;
+    line-height: 12vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    height: 15vh;
+}
+
+.imagem img {
+    height: 12vh;
+    width: 8vw;
+}
+
+.Links {
+    font-size: 28px;
+    margin-right: 10vw;
+}
+
+.Links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    width: 100vw;
+    background-color: #042940;
+}
+
+.cadastro {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    background-color: #063a5a;
+    border-radius: 2vh;
+    height: auto;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+input[type=text],
+select {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    width: 100%;
+    font-size: 2vh;
+    background-color: #042940;
+    color: white;
+}
+
+textarea {
+    padding: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px grey;
+    width: 100%;
+    height: 100px;
+    background-color: #042940;
+    color: white;
+    font-size: 2.2vh;
+}
+
+input[type=number] {
+    width: 13vw;
+    height: 3.7vh;
+    background-color: #042940;
+    color: white;
+    border-radius: 0.5vh;
+    font-size: 2.2vh;
+}
+
+input[type=submit] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #006a1e;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-top: 4vh;
+}
+
+input[type=submit]:hover {
+    background-color: #009b2c;
+    color: #00280b;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5vh;
+    color: white;
+    height: 6vh;
+    width: 20vw;
+    border: solid white 1.5px;
+    border-radius: 2vh;
+}

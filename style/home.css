@@ -1,0 +1,99 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #042940;
+    height: 12vh;
+    line-height: 12vh;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    margin-left: 3vw;
+    height: 15vh;
+}
+
+.imagem img {
+    height: 12vh;
+    width: 8vw;
+}
+
+.Links {
+    font-size: 28px;
+    margin-right: 10vw;
+}
+
+.Links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    width: 100vw;
+    background-color: #042940;
+}
+
+.getMovies {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    height: 95%;
+    width: 80%;
+    background-color: white;
+    border-radius: 3vh;
+}
+
+.title {
+    display: flex;
+    align-items: end;
+    height: 8vh;
+    width: 95%;
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.moviesRoll {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 75.8vh;
+    width: 95%;
+}
+
+.movie {
+    display: flex;
+    flex-flow: column wrap;
+    height: 23vh;
+    width: 23vw;
+    background-color: rgb(114, 114, 114);
+    border-radius: 2vh;
+}
+
+.contentmovie {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.5vw;
+    margin-top: 0.6vh;
+}
+
+.titles {
+    font-size: 2.3vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+
+.titleMovie,.genre,.vote_average {
+    font-size: 2.3vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.overview {
+    font-size: 2vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+

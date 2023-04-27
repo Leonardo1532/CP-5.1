@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../style/cadastro.css">
+    <style>
+        html {
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ol,
+        ul {
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <div class="imagem">
+            <img src="../img/logo_semsite_semfundo (2).png" alt="Logo">
+        </div>
+        <div class="Links">
+            <a class="NavOptions" href="../dist/home.html">Home</a>
+            <a class="NavOptions" href="../dist/cadastro.html">Cadastro</a>
+        </div>
+    </section>
+    <div class="content">
+        <div class="cadastro">
+            <h1>Cadastro de Filmes</h1>
+            <form id="cadastro">
+                <label for="title">Título</label>
+                <input type="text" id="title" name="title" required>
+        
+                <label for="overview">Sinopse</label>
+                <textarea id="overview" name="overview" required></textarea>
+        
+                <label for="genre">Gênero</label>
+                <select id="genre" name="genre" multiple required>
+                    <option value="Action">Ação</option>
+                    <option value="Adventure">Aventura</option>
+                    <option value="Animation">Animação</option>
+                    <option value="Comedy">Comédia</option>
+                    <option value="Crime">Crime</option>
+                    <option value="Documentary">Documentário</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Family">Família</option>
+                    <option value="Fantasy">Fantasia</option>
+                    <option value="History">História</option>
+                    <option value="Horror">Terror</option>
+                    <option value="Music">Música</option>
+                    <option value="Mystery">Mistério</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Science Fiction">Ficção Científica</option>
+                    <option value="TV Movie">Filme de TV</option>
+                    <option value="Thriller">Suspense</option>
+                    <option value="War">Guerra</option>
+                    <option value="Western">Faroeste</option>
+                </select>
+        
+                <label for="vote_average">Nota</label>
+                <input type="number" id="vote_average" name="vote_average" min="0" max="10" step="0.1" required>
+        
+                <input type="submit" value="Cadastrar Filme">
+            </form>
+        </div>
+    </div>
+    <script src="../src/cadastro.js"></script>
+</body>
+
+</html>
